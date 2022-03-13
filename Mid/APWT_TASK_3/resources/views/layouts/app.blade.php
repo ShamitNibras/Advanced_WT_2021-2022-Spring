@@ -27,12 +27,13 @@
     </div>
   </div>
   
-    <a class="nav-item nav-link" href="{{route('home')}}"><h5 style="color:	gainsboro">Home</h5></a></a>
-    <a class="nav-item nav-link" href="{{route('service')}}"><h5 style="color:	gainsboro">Our Service</h5></a>
-      <a class="nav-item nav-link" href="{{route('ourTeams')}}"><h5 style="color:	gainsboro">Our Teams</h5></a>
-      <a class="nav-item nav-link " href="{{route('aboutUs')}}"><h5 style="color:	gainsboro">About Us</h5></a>
-      <a class="nav-item nav-link " href="{{route('contact')}}"><h5 style="color:	gainsboro">Contact</h5></a>
-      <a class="nav-item nav-link " href="{{route('login')}}"><h5 style="color:	red"><b>LogIn</b></h5></a>
+    <a class="nav-item nav-link" href="{{route('home')}}"><h5 style="color:	rgb(24, 97, 91)">Home</h5></a>
+    <a class="nav-item nav-link" href="{{route('profile')}}"><h5 style="color:	rgb(24, 97, 91)">Profile</h5></a>
+        <a class="nav-item nav-link" href="{{route('studentList')}}"><h5 style="color:	rgb(73, 67, 67)">Student List</h5></a>
+        <a class="nav-item nav-link " href="{{route('studentCreate')}}"><h5 style="color:	rgb(73, 67, 67)">Create Student</h5></a>
+        <a class="nav-item nav-link " href="{{route('teacherCreate')}}"><h5 style="color:	rgb(73, 67, 67)">Create Teacher</h5></a>
+        <a class="nav-item nav-link " href="{{route('teacherList')}}"><h5 style="color:	rgb(73, 67, 67)">Teacher List</h5></a>
+          <a class="nav-item nav-link " href=" "><h5 style="color:	red"><b>LogIn</b></h5></a>
   </div>
 
   </div>
@@ -41,21 +42,10 @@
     </div>  
     @yield('content')
             <footer>
-            <div class="container">
-            <div >
-                    <h5>Call Me</h5>
-                    <p>+8801711318734,
-                    +8801552392801</p>              
-               
-                    <h5>Mail Me</h5>
-                    <p>shamitnibras@gmail.com,
-                    19-40117-1@student.aiub.edu</p>
-                  
+            <div class="container">   
             <p>©2022
                     Created by Shamit Nibras | All rights reserved</p>
-                    </div>
-            </div> 
-
+</div>
 </footer>
         
 
